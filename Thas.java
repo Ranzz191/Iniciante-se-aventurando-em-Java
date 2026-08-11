@@ -7,7 +7,7 @@ public class Thas {
         
         Scanner sinum = new Scanner(System.in);
         System.out.print ("defina seu primeiro número");
-        int inum = sinum.nextInt();
+        double inum = sinum.nextDouble();
 
         //define o operador da conta
         Scanner sope = new Scanner(System.in);
@@ -18,13 +18,13 @@ public class Thas {
         //define o segundo numero da conta
         Scanner sdnum = new Scanner(System.in);
         System.out.print ("defina seu segundo número");
-        int dnum = sdnum.nextInt();
+        double dnum = sdnum.nextDouble();
 
         //define operações disponiveis
-        int plus = inum + dnum;
-        int minus = inum - dnum;
-        int times = inum * dnum;
-        int div = inum / dnum;
+        double plus = inum + dnum;
+        double minus = inum - dnum;
+        double times = inum * dnum;
+        double div = inum / dnum;
 
         switch (ope) {
             case "+":
