@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Thas {
+public class Calc {
     public static void main(String[] args) {
         
         //define o primeiro numero da conta
